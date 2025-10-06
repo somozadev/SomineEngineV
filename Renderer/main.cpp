@@ -4,46 +4,64 @@
 #include <glm/vec4.hpp>
 #include <glm/mat4x4.hpp>
 
-int main() {
-    // Initialize GLFW
-    if (!glfwInit()) {
-        std::cerr << "Failed to initialize GLFW" << std::endl;
-        return -1;
+
+class Application
+{
+public:
+
+    void run()
+    {
+        initWindow();
+        initVulkan();
+        mainLoop();
+        cleanup();
     }
 
-    // GLFW was originally designed to create an OpenGL context,
-    // so we need to tell it not to create one
-    glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+private:
+    const uint32_t _width = 720;
+    const uint32_t _height = 480;
+    GLFWwindow* _window;
 
-    // Create a window
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Vulkan Window", nullptr, nullptr);
-    if (!window) {
-        std::cerr << "Failed to create GLFW window" << std::endl;
+    void initWindow()
+    {
+        if (!glfwInit())
+            return;
+        glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+        glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+        _window = glfwCreateWindow(_width, _height, "SomineV", nullptr, nullptr);
+    }
+
+    void initVulkan()
+    {
+        
+    }
+    void mainLoop()
+    {
+        while (!glfwWindowShouldClose(_window))
+        {
+            glfwPollEvents();
+        }
+    }
+
+    void cleanup()
+    {
+        glfwDestroyWindow(_window);
         glfwTerminate();
-        return -1;
     }
+};
 
-    // Create Vulkan instance (not shown)
-    VkInstance instance = VK_NULL_HANDLE;
-    // ... create instance ...
 
-    uint32_t extensionCount = 0;
-    vkEnumerateInstanceExtensionProperties(nullptr, &extensionCount, nullptr);
-    std::cout << extensionCount << " extensions supported \n";
-    glm::mat4 matrix; 
-    glm::vec4 vec; 
-    auto test = matrix * vec; 
-
-    // Main loop
-    while (!glfwWindowShouldClose(window)) {
-        glfwPollEvents();
-
-        // Render with Vulkan (not shown)
+int main()
+{
+    Application application;
+    try
+    {
+        application.run();
     }
-
-    // Cleanup
-    glfwDestroyWindow(window);
-    glfwTerminate();
-
-    return 0;
+    catch (const std::exception& e)
+    {
+        std::cerr << e.what() << std::endl;
+        return EXIT_FAILURE;
+    }
+    return EXIT_SUCCESS;
 }
