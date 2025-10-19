@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|solutionrelative:Editor\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|solutionrelative:Editor\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|solutionrelative:Editor\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|solutionrelative:Editor\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4FDBDF9-92D9-4CAF-9E35-569F5C1CBE01}|Renderer\\Renderer.vcxproj|C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Renderer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F4FDBDF9-92D9-4CAF-9E35-569F5C1CBE01}|Renderer\\Renderer.vcxproj|solutionrelative:Renderer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11A8E4B7-DC3B-4541-BE82-42AFECA16C6A}|Editor\\Editor.vcxproj|solutionrelative:Editor\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,85 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Window.cpp",
+              "DocumentMoniker": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Window.cpp",
+              "RelativeDocumentMoniker": "Editor\\Window.cpp",
+              "ToolTip": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Window.cpp",
+              "RelativeToolTip": "Editor\\Window.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T10:53:11.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.cpp",
+              "DocumentMoniker": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Application.cpp",
+              "RelativeDocumentMoniker": "Editor\\Application.cpp",
+              "ToolTip": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Application.cpp",
+              "RelativeToolTip": "Editor\\Application.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T10:47:23.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\main.cpp",
+              "RelativeDocumentMoniker": "Editor\\main.cpp",
+              "ToolTip": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\main.cpp",
+              "RelativeToolTip": "Editor\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T10:46:38.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Renderer\\main.cpp",
               "RelativeDocumentMoniker": "Renderer\\main.cpp",
               "ToolTip": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Renderer\\main.cpp",
               "RelativeToolTip": "Renderer\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-30T01:19:37.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Window.h",
+              "DocumentMoniker": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Window.h",
+              "RelativeDocumentMoniker": "Editor\\Window.h",
+              "ToolTip": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Window.h",
+              "RelativeToolTip": "Editor\\Window.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-18T10:48:13.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Application.h",
+              "DocumentMoniker": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Application.h",
+              "RelativeDocumentMoniker": "Editor\\Application.h",
+              "ToolTip": "C:\\Users\\mesom\\Documents\\GitHub\\Graphics\\Vulkan\\SomineEngineV\\Editor\\Application.h",
+              "RelativeToolTip": "Editor\\Application.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-18T10:47:04.57Z",
               "EditorCaption": ""
             }
           ]

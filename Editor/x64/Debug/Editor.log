@@ -1,0 +1,17 @@
+﻿  Application.cpp
+  main.cpp
+  Window.cpp
+  Generando código...
+Window.obj : error LNK2019: símbolo externo glfwInit sin resolver al que se hace referencia en la función "public: bool __cdecl Window::create(struct Window::Desc const &)" (?create@Window@@QEAA_NAEBUDesc@1@@Z)
+Window.obj : error LNK2019: símbolo externo glfwTerminate sin resolver al que se hace referencia en la función "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: símbolo externo glfwSetErrorCallback sin resolver al que se hace referencia en la función "public: bool __cdecl Window::create(struct Window::Desc const &)" (?create@Window@@QEAA_NAEBUDesc@1@@Z)
+Window.obj : error LNK2019: símbolo externo glfwWindowHint sin resolver al que se hace referencia en la función "public: bool __cdecl Window::create(struct Window::Desc const &)" (?create@Window@@QEAA_NAEBUDesc@1@@Z)
+Window.obj : error LNK2019: símbolo externo glfwCreateWindow sin resolver al que se hace referencia en la función "public: bool __cdecl Window::create(struct Window::Desc const &)" (?create@Window@@QEAA_NAEBUDesc@1@@Z)
+Window.obj : error LNK2019: símbolo externo glfwDestroyWindow sin resolver al que se hace referencia en la función "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: símbolo externo glfwWindowShouldClose sin resolver al que se hace referencia en la función "public: bool __cdecl Window::shouldClose(void)const " (?shouldClose@Window@@QEBA_NXZ)
+Window.obj : error LNK2019: símbolo externo glfwSetWindowShouldClose sin resolver al que se hace referencia en la función "public: void __cdecl Window::requestClose(void)" (?requestClose@Window@@QEAAXXZ)
+Window.obj : error LNK2019: símbolo externo glfwSetWindowUserPointer sin resolver al que se hace referencia en la función "public: bool __cdecl Window::create(struct Window::Desc const &)" (?create@Window@@QEAA_NAEBUDesc@1@@Z)
+Window.obj : error LNK2019: símbolo externo glfwGetWindowUserPointer sin resolver al que se hace referencia en la función "public: __cdecl `public: bool __cdecl Window::create(struct Window::Desc const &)'::`2'::<lambda_1>::operator()(struct GLFWwindow *,int,int)const " (??R<lambda_1>@?1??create@Window@@QEAA_NAEBUDesc@2@@Z@QEBA@PEAUGLFWwindow@@HH@Z)
+Window.obj : error LNK2019: símbolo externo glfwSetFramebufferSizeCallback sin resolver al que se hace referencia en la función "public: bool __cdecl Window::create(struct Window::Desc const &)" (?create@Window@@QEAA_NAEBUDesc@1@@Z)
+Window.obj : error LNK2019: símbolo externo glfwPollEvents sin resolver al que se hace referencia en la función "public: void __cdecl Window::pollEvents(void)" (?pollEvents@Window@@QEAAXXZ)
+C:\Users\mesom\Documents\GitHub\Graphics\Vulkan\SomineEngineV\x64\Debug\Editor.exe : fatal error LNK1120: 12 externos sin resolver

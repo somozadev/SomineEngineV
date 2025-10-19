@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+
+
+
+# builds
+/x64/
+/build/
+/bin/
+/out/
+
+# VS / Rider
+/.vs/
+/.idea/
+/.vscode/
+
+# binarios y símbolos
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.obj

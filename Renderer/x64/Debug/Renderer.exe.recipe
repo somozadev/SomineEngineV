@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
-  <ProjectOutputs>
-    <ProjectOutput>
-      <FullPath>C:\Users\mesom\Documents\GitHub\Graphics\Vulkan\SomineEngineV\x64\Debug\Renderer.exe</FullPath>
-    </ProjectOutput>
-  </ProjectOutputs>
+  <ProjectOutputs />
   <ContentFiles />
   <SatelliteDlls />
   <NonRecipeFileRefs />
