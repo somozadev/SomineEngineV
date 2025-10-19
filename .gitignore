@@ -1,53 +1,87 @@
-# Prerequisites
+# -------------------------
+# Compilados/binaries (tu base)
+# -------------------------
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
 
-
-
-# builds
+# -------------------------
+# Visual Studio / MSVC
+# -------------------------
+# Carpetas de build comunes
 /x64/
-/build/
+/x86/
+/Debug/
+/Release/
+/RelWithDebInfo/
+/MinSizeRel/
 /bin/
+/bin-int/
 /out/
+/build/
+/_build/
+/cmake-build-*/
 
-# VS / Rider
+# Archivos intermedios y símbolos
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.obj.enc
+*.log
+
+# Proyectos/usuario temporales
 /.vs/
+*.VC.db
+*.VC.opendb
+*.user
+*.userprefs
+*.suo
+
+# -------------------------
+# Rider / JetBrains / VSCode
+# -------------------------
 /.idea/
 /.vscode/
 
-# binarios y símbolos
-*.exe
-*.dll
-*.pdb
-*.ilk
-*.lib
-*.obj
+# -------------------------
+# CMake basura de usuario
+# -------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# -------------------------
+# Otros frecuentes
+# -------------------------
+# Crash dumps, profiling, etc.
+*.dmp
+*.opendb
+*.tmp
+
+# No subas binarios del SDK ni layers logs
+vkconfig/*
